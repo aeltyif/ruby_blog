@@ -56,6 +56,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # My Personal Gems/Groups Here
 group :test do
   gem 'rspec-rails', '~> 3.6'
+  gem 'factory_girl_rails'
 end
 
 # Users handler

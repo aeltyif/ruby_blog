@@ -14,3 +14,8 @@ This is a simple blog that summarizes what i have learned in two weeks.
 - Simple Form
 - Friendly ID
 - Mini Profiler
+
+# TODO
+- Cache the model
+- Add ACL
+- Add Comments
