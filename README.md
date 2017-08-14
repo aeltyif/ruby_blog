@@ -1,24 +1,16 @@
-# README
+# Ruby On Rails Blog
+This is a simple blog that summarizes what i have learned in two weeks.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Stack List
+- ROR : 5.1
+- Ruby : 2.4
+- PostgreSQL : 9.5.7
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Gems List
+- Rspec
+- Devise
+- Jquery
+- Bootstrap
+- Simple Form
+- Friendly ID
+- Mini Profiler
