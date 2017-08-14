@@ -58,5 +58,11 @@ group :test do
   gem 'rspec-rails', '~> 3.6'
 end
 
-# User handler
+# Users handler
 gem 'devise'
+# Rails version of jquery
+gem 'jquery-rails'
+# Twitter bootstrap for styling your blog
+gem 'bootstrap-sass', '~> 3.3.6'
+# Simple form using bootstrap
+gem 'simple_form'

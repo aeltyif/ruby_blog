@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>RubyBlog</title>
+    <title>Blog</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -9,6 +9,21 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class="container">
+      <%= render 'layouts/navbar' %>
+      <div class="all-content">
+        <% unless notice.blank? %>
+        <div class="alert alert-success">
+          <%= notice %>
+        </div>
+        <% end %>
+        <% unless alert.blank? %>
+        <div class="alert alert-danger">
+          <%= alert %>
+        </div>
+        <% end %>
+        <%= yield %>
+      </div>
+    </div>
   </body>
 </html>

@@ -1,0 +1,19 @@
+<nav class="navbar navbar-fixed-top navbar-default" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <%= link_to('Home', posts_path, :class => 'navbar-brand')  %>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-collapsable">
+      <!-- <ul class="nav navbar-nav foo" id="menu">
+        <li class="active"><a href="/">Home</a></li>
+      </ul> -->
+      <ul class="nav navbar-nav navbar-right" align="right">
+        <% if user_signed_in? %>
+          <li><%= link_to('Logout', destroy_user_session_path, method: :delete) %></li>
+        <% else %>
+          <li><%= link_to('Login', new_user_session_path)  %></li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</nav>
