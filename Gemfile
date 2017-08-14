@@ -66,3 +66,5 @@ gem 'jquery-rails'
 gem 'bootstrap-sass', '~> 3.3.6'
 # Simple form using bootstrap
 gem 'simple_form'
+# Better urls
+gem 'friendly_id', '~> 5.1.0'
