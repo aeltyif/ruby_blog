@@ -20,7 +20,7 @@ RSpec.describe PostsController, type: :controller do
         body: 'Hello this is a testing body here'
       }
       post :create, params: { :post => params }
-      expect(response).to have_http_status(302)
+      expect(response).to have_http_status(:found)
     end
   end
 end
